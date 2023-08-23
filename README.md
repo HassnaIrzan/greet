@@ -7,4 +7,4 @@ This package provides a simple way to greet a person by name.
 You can install the package using pip:
 
 ```bash
-pip install greetperson
+python3 setup.py install 
