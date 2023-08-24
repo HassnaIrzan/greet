@@ -14,10 +14,10 @@ class TestGreet(unittest.TestCase):
 
     def test_greet_type(self):
         with self.assertRaises(TypeError):
-            greet.GreetPerson(1)
-            greet.GreetPerson(1.0)
-            greet.GreetPerson([1, 2, 3])
-            greet.GreetPerson({"name": "Hassna"})
+            greet.GreetPerson(1).greet()
+            greet.GreetPerson(1.0).greet()
+            greet.GreetPerson([1, 2, 3]).greet()
+            greet.GreetPerson({"name": "Hassna"}).greet()
 
 
 
