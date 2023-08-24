@@ -1,3 +1,10 @@
+"""
+@brief: This file contains the setup script for the greet package.
+@author: Hassna Irzan (rmaphir@gmail.com)
+@date: 24 August 2023
+
+"""
+
 from setuptools import setup, find_packages
 from os import path
 
