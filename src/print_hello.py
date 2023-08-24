@@ -1,5 +1,5 @@
 """
-@brief: This file contains a class that prints a greetings given the name of a person.
+@brief: This file contains a class that returns a greetings given the name of a person.
 @file: print_hello.py
 @date: 24 August 2023
 @version: 0.0.1
@@ -8,8 +8,9 @@
 """
 
 
-# make a class that prints a greetings
 class GreetPerson:
+    """ This class return a greeting given the name of a person. """
+
     def __init__(self, name):
         if isinstance(name, str):
             self.name = name
