@@ -20,7 +20,5 @@ class TestGreet(unittest.TestCase):
             greet.GreetPerson({"name": "Hassna"}).greet()
 
 
-
-
 if __name__ == '__main__':
     unittest.main()

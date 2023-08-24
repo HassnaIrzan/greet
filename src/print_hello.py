@@ -19,4 +19,3 @@ class GreetPerson:
 
     def greet(self):
         return "Hello " + self.name + "!"
-
